@@ -1,19 +1,39 @@
+import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;600;700&display=swap');
+
 body {
     background-color: #F4E1A1;
     color: #5C3A21;
-    font-family: Arial, sans-serif;
 }
 
+/* Home page title */
 h1 {
     text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    color: #6b3e26;
 }
 
+/* Navigation buttons */
 nav {
     text-align: center;
+    margin: 20px 0;
 }
 
 nav a {
-    color: #5C3A21;
+    display: inline-block;
+    background-color: #c4774a;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* Button hover effect */
+nav a:hover {
+    background-color: #9e5735;
 }
 
 .recipe-panels {
